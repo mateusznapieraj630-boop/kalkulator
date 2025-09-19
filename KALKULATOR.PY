@@ -11,9 +11,9 @@ inp = input()
 
 if inp == 'a':
 	print("""
-	a - P. KWADRATU
-	b - P. PROSTOKATU 
-	c - P. ROWNOLEGLOBOKU
+	a - pole kwadratu
+	b - pole prostokota
+	c - pole rownolegloboku
 	d - pole trapezu
 	e - pole trojkata
 	f - pole trojkata rownobocznego
@@ -205,4 +205,4 @@ elif inp == 'f':
 		a = float(input("a = "))
 		b = float(input("b = "))
 		c = float(input("c = "))
-		print(f'dlugosc przeciwprostokatnej to {a**2 + b**2}')
+		print(f'dlugosc przeciwprostokatnej to {math.sqrt(a**2 + b**2)}')
