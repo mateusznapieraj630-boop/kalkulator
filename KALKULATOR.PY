@@ -3,7 +3,7 @@ import math
 print("""
 a - POLE
 b - OBWOD
-c -OBJETOSC
+c -OBJETOSc
 d - POLE POWIERZCHNI
 f - INNE""")
 
